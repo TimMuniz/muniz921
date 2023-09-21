@@ -9,8 +9,9 @@ public class MunizTipCalculator {
         double billbftip = 0;
         int orderstaken = 0;
         while (orderstaken != tablenumber) {
-            billbftip = billbftip + scan.nextDouble();
-            orderstaken ++;
+            System.out.println("How much is what you want?");
+            billbftip = billbftip + scan.nextDouble(); //adds to the total amount
+            orderstaken ++; //will eventually add up to the anmount of people at the table
         }
         System.out.println("Your bill before tip is " + billbftip);
         System.out.println("How much tip percent? ");
