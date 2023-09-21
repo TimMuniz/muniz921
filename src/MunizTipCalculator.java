@@ -18,6 +18,7 @@ public class MunizTipCalculator {
         System.out.println("How much tip percent? ");
         double tippercent = scan.nextDouble();
         double billaftertip = billbftip + (billbftip/100 * tippercent);
+        System.out.println("The tip is " + (billbftip/100 * tippercent));
         System.out.println("Your bill after tip is " + billaftertip);
         System.out.println("Heres your complimentary peas");
     }
