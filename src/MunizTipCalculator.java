@@ -13,6 +13,7 @@ public class MunizTipCalculator {
             billbftip = billbftip + scan.nextDouble(); //adds to the total amount
             orderstaken ++; //will eventually add up to the anmount of people at the table
         }
+        billbftip --;
         System.out.println("Your bill before tip is " + billbftip);
         System.out.println("How much tip percent? ");
         double tippercent = scan.nextDouble();
